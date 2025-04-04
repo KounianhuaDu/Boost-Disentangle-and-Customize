@@ -1,9 +1,4 @@
-# Multi-Teacher-Tree-Alignment
-
-## Environment Setup
-Two sets of environments are used, with one for basic merging methods and the other for our routing training/inference. We offer the packed environments here.
-- merge_env
-- mcts_tune
+# BDC
 
 ## System 2 Data Collection and Inference
 Trace collection on train set:
