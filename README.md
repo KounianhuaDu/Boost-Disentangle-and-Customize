@@ -1,7 +1,7 @@
 # BDC
 
 ## System 2 Data Collection and Inference
-Trace collection on train set:
+Trace collection on train set (Sampled from all the data excluding the test set.):
 ```bash
 python collect_trace.py
 ```
@@ -11,7 +11,7 @@ Cd the "DataScripts" directory and run:
 python process_data.py
 ```
 
-Test inference methods on test set:
+Test inference methods on test set (For APPS: intro (index 4000-4100), inter (index 0-100), comp (index 3000-3100)):
 ```bash
 python run_debate.py
 ```
