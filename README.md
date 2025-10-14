@@ -50,3 +50,14 @@ python train_router.py
 ```bash
 python load_router_for_test.py
 ```
+
+If you find this repo useful, please cite the correponding paper:
+
+@inproceedings{
+anonymous2025boost,
+title={Boost, Disentangle, and Customize: A Robust System2-to-System1 Pipeline for Code Generation},
+author={Anonymous},
+booktitle={The 63rd Annual Meeting of the Association for Computational Linguistics},
+year={2025},
+url={https://openreview.net/forum?id=LvqKcMtgce}
+}
