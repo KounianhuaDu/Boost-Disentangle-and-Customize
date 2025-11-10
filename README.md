@@ -2,9 +2,9 @@
 This is the implementation for [Boost, Disentangle, and Customize: A Robust System2-to-System1 Pipeline for Code Generation](https://arxiv.org/pdf/2502.12492?).
 
 ## System 2 Data Collection and Inference (MC-Tree-Of-Agents)
-![Uploading image.png…]()
+<img width="215" height="293" alt="image" src="https://github.com/user-attachments/assets/9400857e-e55f-4d44-9366-17df430c8ff9" />
+<img width="286" height="163" alt="image" src="https://github.com/user-attachments/assets/99ac5b1e-9a09-4918-a550-0b14c903e90b" />
 
-![Uploading image.png…]()
 
 Trace collection on train set (Sampled from all the data excluding the test set.):
 ```bash
@@ -22,7 +22,7 @@ python run_debate.py
 ```
 
 ## System 1 Tuning and Inference
-![Uploading image.png…]()
+<img width="352" height="286" alt="image" src="https://github.com/user-attachments/assets/d6119dcb-f9d8-40e2-a61b-625ad083934b" />
 
 1. Cluster data obtained.
 ```bash
