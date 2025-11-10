@@ -1,6 +1,11 @@
 # BDC
+This is the implementation for [Boost, Disentangle, and Customize: A Robust System2-to-System1 Pipeline for Code Generation](https://arxiv.org/pdf/2502.12492?).
 
-## System 2 Data Collection and Inference
+## System 2 Data Collection and Inference (MC-Tree-Of-Agents)
+![Uploading image.png…]()
+
+![Uploading image.png…]()
+
 Trace collection on train set (Sampled from all the data excluding the test set.):
 ```bash
 python collect_trace.py
@@ -17,6 +22,8 @@ python run_debate.py
 ```
 
 ## System 1 Tuning and Inference
+![Uploading image.png…]()
+
 1. Cluster data obtained.
 ```bash
 python enc_and_clustering.py
@@ -52,7 +59,7 @@ python load_router_for_test.py
 ```
 
 If you find this repo useful, please cite the correponding paper:
-
+```bash
 @inproceedings{
 anonymous2025boost,
 title={Boost, Disentangle, and Customize: A Robust System2-to-System1 Pipeline for Code Generation},
@@ -61,3 +68,4 @@ booktitle={The 63rd Annual Meeting of the Association for Computational Linguist
 year={2025},
 url={https://openreview.net/forum?id=LvqKcMtgce}
 }
+```
